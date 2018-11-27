@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="History"
+        android:showAsAction="always"
+        android:icon="@drawable/history"
+        android:id="@+id/mnuHist"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/mnuSettings"
+        android:icon="@drawable/settings4"
+        android:showAsAction="always"
+        android:title="Settings"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+</menu>
